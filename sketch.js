@@ -73,10 +73,10 @@ function draw() {
  
   monkey.velocityY=monkey.velocityY +0.8;
 
-  if(monkey.x>=500){
-    camera.position.x=displayWidth/2;
-    camera.position.y=monkey.y;
-  }
+  //if(monkey.x>=500){
+    //camera.position.x=displayWidth/2;}
+    camera.position.y=height/2;
+  
 
   drawSprites();
   
